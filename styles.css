@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(300deg, #252426, #872341, #F05941);
+    background-size: 125% 100%;
+}
+
+.mainimage{
+    border-radius: 5%;
+}
+
+.btn{
+    background-color: #252426;
+    border: hidden;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+.headingtitle{
+    color: #252426;
+}
+
+.description{
+    color: white;
+}
+
+.navigation{
+    background-color: #252426;
+    margin-top: 25px;
+}
+
+.navigation img{
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #252426;
+    color: white;
+}
+
+.hideelement{
+    z-index: -1;
+}
+
+.textcolor{
+    color: #252426;
+}
