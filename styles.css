@@ -1,10 +1,29 @@
-body{
+.background-color{
     background: linear-gradient(300deg, #252426, #872341, #F05941);
-    background-size: 125% 100%;
+    background-size: 120% 100%;
 }
 
-.mainimage{
+.navigation{
+    background-color: #252426;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.navigation img{
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.rosterimage{
     border-radius: 5%;
+}
+
+.headingtitle{
+    color: #252426;
+}
+
+.description{
+    color: white;
 }
 
 .btn{
@@ -17,21 +36,17 @@ body{
     background-color: white;
 }
 
-.headingtitle{
-    color: #252426;
+.photo-container{
+    width: 100%;
 }
 
-.description{
+hr{
     color: white;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
-.navigation{
-    background-color: #252426;
-    margin-top: 25px;
-}
-
-.navigation img{
-    margin-right: 20px;
+.photo{
     border-radius: 5px;
 }
 
@@ -40,10 +55,5 @@ body{
     color: white;
 }
 
-.hideelement{
-    z-index: -1;
-}
 
-.textcolor{
-    color: #252426;
-}
+
